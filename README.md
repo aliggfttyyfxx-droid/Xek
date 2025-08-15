@@ -1,0 +1,2 @@
+# Xek
+Salawat counter
