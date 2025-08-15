@@ -1,0 +1,14 @@
+let count = 0;
+const countDisplay = document.getElementById("count");
+const tasbihBtn = document.getElementById("tasbihBtn");
+const resetBtn = document.getElementById("resetBtn");
+
+tasbihBtn.addEventListener("click", () => {
+    count++;
+    countDisplay.textContent = count;
+});
+
+resetBtn.addEventListener("click", () => {
+    count = 0;
+    countDisplay.textContent = count;
+});
